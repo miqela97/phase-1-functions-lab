@@ -17,3 +17,22 @@ function calculatesFarePrice(start, destination){
   if (distance > 2000 && distance < 2500 ) return 25;  
   if (distance > 2500) return "cannot travel that far";
 }
+// function calculatesFarePrice(start, destination){
+//   const distance = distanceTravelledInFeet(start, destination);
+// let fare;
+// if (distance <= 400)
+// { 
+// return 0;
+// }
+// if (distance > 400){
+//   fare = (distance - 400) * 0.02;
+//   return fare;
+// }
+// if (distance > 2000 && distance < 2500) {
+//   fare = 25;
+//   return 25;
+// }
+// if (distance >= 2500) {
+//   return "cannot travel that far";
+// }
+// }
